@@ -1,0 +1,1009 @@
+fileFormatVersion: 2
+guid: ac22fc0e965384eb68d3a9e4973aab9c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 21300000
+    second: WarriorHero_Attack_0
+  - first:
+      213: 21300002
+    second: WarriorHero_Attack_1
+  - first:
+      213: 21300004
+    second: WarriorHero_Attack_2
+  - first:
+      213: 21300006
+    second: WarriorHero_Attack_3
+  - first:
+      213: 21300008
+    second: WarriorHero_Attack_4
+  - first:
+      213: 21300010
+    second: WarriorHero_Attack_5
+  - first:
+      213: 21300012
+    second: WarriorHero_Attack_6
+  - first:
+      213: 21300014
+    second: WarriorHero_Attack_7
+  - first:
+      213: 21300016
+    second: WarriorHero_Attack_8
+  - first:
+      213: 21300018
+    second: WarriorHero_Attack_9
+  - first:
+      213: 21300020
+    second: WarriorHero_Attack_10
+  - first:
+      213: 21300022
+    second: WarriorHero_Attack_11
+  - first:
+      213: 21300024
+    second: WarriorHero_Attack_12
+  - first:
+      213: 21300026
+    second: WarriorHero_Attack_13
+  - first:
+      213: 21300028
+    second: WarriorHero_Attack_14
+  - first:
+      213: 21300030
+    second: WarriorHero_Attack_15
+  - first:
+      213: 21300032
+    second: WarriorHero_Attack_16
+  - first:
+      213: 21300034
+    second: WarriorHero_Attack_17
+  - first:
+      213: 21300036
+    second: WarriorHero_Attack_18
+  - first:
+      213: 21300038
+    second: WarriorHero_Attack_19
+  - first:
+      213: 21300040
+    second: WarriorHero_Attack_20
+  - first:
+      213: 21300042
+    second: WarriorHero_Attack_21
+  - first:
+      213: 21300044
+    second: WarriorHero_Attack_22
+  - first:
+      213: 21300046
+    second: WarriorHero_Attack_23
+  - first:
+      213: 21300048
+    second: WarriorHero_Attack_24
+  - first:
+      213: 21300050
+    second: WarriorHero_Attack_25
+  - first:
+      213: 21300052
+    second: WarriorHero_Attack_26
+  - first:
+      213: 21300054
+    second: WarriorHero_Attack_27
+  - first:
+      213: 21300056
+    second: WarriorHero_Attack_28
+  - first:
+      213: 21300058
+    second: WarriorHero_Attack_29
+  - first:
+      213: 21300060
+    second: WarriorHero_Attack_30
+  - first:
+      213: 21300062
+    second: WarriorHero_Attack_31
+  - first:
+      213: 21300064
+    second: WarriorHero_Attack_32
+  - first:
+      213: 21300066
+    second: WarriorHero_Attack_33
+  - first:
+      213: 21300068
+    second: WarriorHero_Attack_34
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: WarriorHero_Attack_0
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 92
+        width: 14
+        height: 16
+      alignment: 9
+      pivot: {x: 0.43, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02305410000000000800000000000000
+      internalID: 21300000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarriorHero_Attack_1
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 92
+        width: 11
+        height: 16
+      alignment: 9
+      pivot: {x: 0.43, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22305410000000000800000000000000
+      internalID: 21300002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarriorHero_Attack_2
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 92
+        width: 10
+        height: 16
+      alignment: 9
+      pivot: {x: 0.4, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42305410000000000800000000000000
+      internalID: 21300004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarriorHero_Attack_3
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 92
+        width: 10
+        height: 15
+      alignment: 9
+      pivot: {x: 0.55, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62305410000000000800000000000000
+      internalID: 21300006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarriorHero_Attack_4
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 92
+        width: 11
+        height: 16
+      alignment: 9
+      pivot: {x: 0.6, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82305410000000000800000000000000
+      internalID: 21300008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarriorHero_Attack_5
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 91
+        width: 12
+        height: 18
+      alignment: 9
+      pivot: {x: 0.6, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2305410000000000800000000000000
+      internalID: 21300010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarriorHero_Attack_6
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 91
+        width: 13
+        height: 18
+      alignment: 9
+      pivot: {x: 0.55, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2305410000000000800000000000000
+      internalID: 21300012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarriorHero_Attack_7
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 91
+        width: 14
+        height: 18
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2305410000000000800000000000000
+      internalID: 21300014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarriorHero_Attack_8
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 91
+        width: 14
+        height: 18
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03305410000000000800000000000000
+      internalID: 21300016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarriorHero_Attack_9
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 91
+        width: 11
+        height: 16
+      alignment: 9
+      pivot: {x: 0.45, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23305410000000000800000000000000
+      internalID: 21300018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarriorHero_Attack_10
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 60
+        width: 11
+        height: 16
+      alignment: 9
+      pivot: {x: 0.45, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43305410000000000800000000000000
+      internalID: 21300020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarriorHero_Attack_11
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 60
+        width: 11
+        height: 16
+      alignment: 9
+      pivot: {x: 0.45, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63305410000000000800000000000000
+      internalID: 21300022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarriorHero_Attack_12
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 60
+        width: 11
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83305410000000000800000000000000
+      internalID: 21300024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarriorHero_Attack_13
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 60
+        width: 11
+        height: 15
+      alignment: 9
+      pivot: {x: 0.4, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3305410000000000800000000000000
+      internalID: 21300026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarriorHero_Attack_14
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 60
+        width: 11
+        height: 15
+      alignment: 9
+      pivot: {x: 0.6, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3305410000000000800000000000000
+      internalID: 21300028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarriorHero_Attack_15
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 60
+        width: 11
+        height: 16
+      alignment: 9
+      pivot: {x: 0.45, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3305410000000000800000000000000
+      internalID: 21300030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarriorHero_Attack_16
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 59
+        width: 12
+        height: 16
+      alignment: 9
+      pivot: {x: 0.4, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04305410000000000800000000000000
+      internalID: 21300032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarriorHero_Attack_17
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 59
+        width: 18
+        height: 19
+      alignment: 9
+      pivot: {x: 0.27, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24305410000000000800000000000000
+      internalID: 21300034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarriorHero_Attack_18
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 59
+        width: 18
+        height: 19
+      alignment: 9
+      pivot: {x: 0.275, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44305410000000000800000000000000
+      internalID: 21300036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarriorHero_Attack_19
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 59
+        width: 18
+        height: 19
+      alignment: 9
+      pivot: {x: 0.27, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64305410000000000800000000000000
+      internalID: 21300038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarriorHero_Attack_20
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 59
+        width: 18
+        height: 19
+      alignment: 9
+      pivot: {x: 0.27, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84305410000000000800000000000000
+      internalID: 21300040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarriorHero_Attack_21
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 59
+        width: 19
+        height: 19
+      alignment: 9
+      pivot: {x: 0.32, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4305410000000000800000000000000
+      internalID: 21300042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarriorHero_Attack_22
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 4
+        width: 13
+        height: 16
+      alignment: 9
+      pivot: {x: 0.3, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4305410000000000800000000000000
+      internalID: 21300044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarriorHero_Attack_23
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 4
+        width: 11
+        height: 23
+      alignment: 9
+      pivot: {x: 0.4, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4305410000000000800000000000000
+      internalID: 21300046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarriorHero_Attack_24
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 4
+        width: 14
+        height: 20
+      alignment: 9
+      pivot: {x: 0.9, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05305410000000000800000000000000
+      internalID: 21300048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarriorHero_Attack_25
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 4
+        width: 14
+        height: 20
+      alignment: 9
+      pivot: {x: 0.9, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25305410000000000800000000000000
+      internalID: 21300050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarriorHero_Attack_26
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 4
+        width: 14
+        height: 20
+      alignment: 9
+      pivot: {x: 0.9, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45305410000000000800000000000000
+      internalID: 21300052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarriorHero_Attack_27
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 4
+        width: 20
+        height: 27
+      alignment: 9
+      pivot: {x: 0.6, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65305410000000000800000000000000
+      internalID: 21300054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarriorHero_Attack_28
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 5
+        width: 31
+        height: 27
+      alignment: 9
+      pivot: {x: 0.35, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85305410000000000800000000000000
+      internalID: 21300056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarriorHero_Attack_29
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 5
+        width: 31
+        height: 27
+      alignment: 9
+      pivot: {x: 0.37, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5305410000000000800000000000000
+      internalID: 21300058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarriorHero_Attack_30
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 5
+        width: 31
+        height: 27
+      alignment: 9
+      pivot: {x: 0.375, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5305410000000000800000000000000
+      internalID: 21300060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarriorHero_Attack_31
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 5
+        width: 31
+        height: 27
+      alignment: 9
+      pivot: {x: 0.375, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5305410000000000800000000000000
+      internalID: 21300062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarriorHero_Attack_32
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 5
+        width: 23
+        height: 15
+      alignment: 9
+      pivot: {x: 0.25, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06305410000000000800000000000000
+      internalID: 21300064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarriorHero_Attack_33
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 5
+        width: 23
+        height: 15
+      alignment: 9
+      pivot: {x: 0.25, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26305410000000000800000000000000
+      internalID: 21300066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarriorHero_Attack_34
+      rect:
+        serializedVersion: 2
+        x: 551
+        y: 5
+        width: 23
+        height: 15
+      alignment: 9
+      pivot: {x: 0.25, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46305410000000000800000000000000
+      internalID: 21300068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      WarriorHero_Attack_17: 21300034
+      WarriorHero_Attack_6: 21300012
+      WarriorHero_Attack_1: 21300002
+      WarriorHero_Attack_28: 21300056
+      WarriorHero_Attack_21: 21300042
+      WarriorHero_Attack_31: 21300062
+      WarriorHero_Attack_13: 21300026
+      WarriorHero_Attack_23: 21300046
+      WarriorHero_Attack_29: 21300058
+      WarriorHero_Attack_30: 21300060
+      WarriorHero_Attack_9: 21300018
+      WarriorHero_Attack_16: 21300032
+      WarriorHero_Attack_8: 21300016
+      WarriorHero_Attack_34: 21300068
+      WarriorHero_Attack_11: 21300022
+      WarriorHero_Attack_14: 21300028
+      WarriorHero_Attack_22: 21300044
+      WarriorHero_Attack_2: 21300004
+      WarriorHero_Attack_5: 21300010
+      WarriorHero_Attack_10: 21300020
+      WarriorHero_Attack_20: 21300040
+      WarriorHero_Attack_19: 21300038
+      WarriorHero_Attack_26: 21300052
+      WarriorHero_Attack_7: 21300014
+      WarriorHero_Attack_12: 21300024
+      WarriorHero_Attack_15: 21300030
+      WarriorHero_Attack_32: 21300064
+      WarriorHero_Attack_4: 21300008
+      WarriorHero_Attack_18: 21300036
+      WarriorHero_Attack_33: 21300066
+      WarriorHero_Attack_0: 21300000
+      WarriorHero_Attack_24: 21300048
+      WarriorHero_Attack_27: 21300054
+      WarriorHero_Attack_25: 21300050
+      WarriorHero_Attack_3: 21300006
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
