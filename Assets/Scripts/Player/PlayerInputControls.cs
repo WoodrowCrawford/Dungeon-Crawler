@@ -1,27 +1,31 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
+using TMPro.EditorUtilities;
 using UnityEditor;
 using UnityEngine;
-using UnityEngine.Assertions.Must;
 using UnityEngine.InputSystem;
 
 
 
-public class PlayerMovementBehavior : MonoBehaviour
+public class PlayerInputControls : MonoBehaviour
 {
     //the rigidbody for the player
     private Rigidbody2D rb;
 
+    //the animatior for the player
     public Animator animator;
 
     //the input actions 
     private PlayerInputActions inputActions;
 
-    //speed for the player
+    private PlayerCombatBehavior _combatBehavior;
+
+    //speed for movement
     [SerializeField]
     private float _speed = 3f;
 
-
+    //the current animation state for the player
     private string currentState;
 
     //Sets the animation states to strings
@@ -30,21 +34,24 @@ public class PlayerMovementBehavior : MonoBehaviour
     const string WARRIOR_ATTACK = "HeroWarrior_Attack_part1";
    
 
-
+    
     //Gets the components
     private void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
+        _combatBehavior = GetComponent<PlayerCombatBehavior>();
+
    
         inputActions = new PlayerInputActions();
         inputActions.Player.Enable();
 
-  
         //Subscribes to the events
         inputActions.Player.Move.performed += Move;
-        inputActions.Player.Attack.performed += Attack;
+        inputActions.Player.Attack.performed += InputAttack;
     }
+
+    
 
     private void Start()
     {
@@ -59,13 +66,11 @@ public class PlayerMovementBehavior : MonoBehaviour
         //Checks to see if the player is moving or not
         if(inputVector.x == 0f && inputVector.y == 0f)
         {
-            
             animator.SetBool("isMoving", false);
             ChangeAnimationState(WARRIOR_IDLE);
         }
         else
         {
-           
             animator.SetBool("isMoving", true);
             ChangeAnimationState(WARRIOR_RUN);
         }
@@ -108,9 +113,12 @@ public class PlayerMovementBehavior : MonoBehaviour
         Vector2 inputVector = context.ReadValue<Vector2>();
     }
 
-    public void Attack(InputAction.CallbackContext context)
+
+    public void InputAttack(InputAction.CallbackContext context)
     {
+        _combatBehavior.Attack();
         animator.SetTrigger("Attack");
     }
+
 
 }
