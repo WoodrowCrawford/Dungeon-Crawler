@@ -12,7 +12,7 @@ public class PlayerCombatBehavior : MonoBehaviour
     private float _attackRange; 
 
     [SerializeField]
-    private float _damage;
+    private int _damage;
 
     [SerializeField]
     private LayerMask _enemyLayer;
@@ -26,7 +26,7 @@ public class PlayerCombatBehavior : MonoBehaviour
         foreach(Collider2D enemy in hitEnemies)
         {
             Debug.Log("we hit " + enemy.name + " dealing " + _damage + " damage!");
-            enemy.GetComponent<EnemyBehavior>().TakeDamage();
+            enemy.GetComponent<EnemyBehavior>().TakeDamage(_damage);
            
         }
            
