@@ -116,7 +116,7 @@ public class PlayerInputControls : MonoBehaviour
 
     public void InputAttack(InputAction.CallbackContext context)
     {
-        _combatBehavior.Attack();
+        //Just plays the animation 
         animator.SetTrigger("Attack");
     }
 

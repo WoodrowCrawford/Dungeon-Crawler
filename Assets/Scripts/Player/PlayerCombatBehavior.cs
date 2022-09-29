@@ -25,7 +25,6 @@ public class PlayerCombatBehavior : MonoBehaviour
 
         foreach(Collider2D enemy in hitEnemies)
         {
-            Debug.Log("we hit " + enemy.name + " dealing " + _damage + " damage!");
             enemy.GetComponent<EnemyBehavior>().TakeDamage(_damage);
            
         }

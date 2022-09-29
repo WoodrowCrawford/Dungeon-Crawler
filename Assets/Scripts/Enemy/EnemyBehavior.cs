@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 public class EnemyBehavior : MonoBehaviour
 {
@@ -16,12 +17,6 @@ public class EnemyBehavior : MonoBehaviour
 
 
     [SerializeField]
-    Transform pathPoint1;
-
-    [SerializeField]
-    Transform pathPoint2;
-
-    [SerializeField]
     private string _name;
 
     [SerializeField]
@@ -34,7 +29,10 @@ public class EnemyBehavior : MonoBehaviour
     private float _speed;
 
     [SerializeField]
-    private float _attackDamage;
+    private int _attackDamage;
+
+    [SerializeField]
+    private EnemyStates _currentState;
 
     private void Start()
     {
@@ -42,9 +40,24 @@ public class EnemyBehavior : MonoBehaviour
     }
 
 
+    private void Update()
+    {
+        Debug.Log(_currentState.ToString());
+        ChangeEnemyState();
+
+
+        //Check to see if player is in range of enemy
+       
+
+        //If so then change enemy state to chasing
+
+        //If player is closer to enemy then switch to attack
+    }
+
+
     public void TakeDamage(int damage)
     {
-        Debug.Log("I have been hit! ow");
+        Debug.Log("Player has hit " + _name + " dealing " + damage + " damage!");
         _currentHealth -= damage;
 
         //Play hurt animation
@@ -56,8 +69,24 @@ public class EnemyBehavior : MonoBehaviour
        
     }
 
-    private void Die()
+    public void Attack(int enemyDamage)
+    {
+        enemyDamage = _attackDamage;
+    }
+
+    public void ChangeEnemyState()
+    {
+
+        if(Keyboard.current.uKey.wasPressedThisFrame)
+        {
+            _currentState = EnemyStates.Attacking;
+        }
+    }
+
+
+    public void Die()
     {
         gameObject.SetActive(false);
+       
     }
 }
