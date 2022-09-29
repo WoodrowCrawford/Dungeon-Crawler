@@ -1,20 +1,26 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using Unity.Mathematics;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
+
 public class EnemyBehavior : MonoBehaviour
 {
-    //The enemy behavior states
-    private enum EnemyStates
+    //Enemy AI states
+    private enum AIState
     {
         Idle,
-        Patroling,
-        Chasing,
-        Attacking
+        Wander,
+        Patrol,
+        Chase,
+        Attack
     }
 
+
+    [SerializeField]
+    private Rigidbody2D _rb2d;
 
     [SerializeField]
     private string _name;
@@ -32,29 +38,36 @@ public class EnemyBehavior : MonoBehaviour
     private int _attackDamage;
 
     [SerializeField]
-    private EnemyStates _currentState;
+    private AIState _currentState;
+
+    [SerializeField]
+    private Transform[] _moveSpots;
+
+    private int _randomSpot;
+
+
+
+    private void Awake()
+    {
+        _rb2d = GetComponent<Rigidbody2D>();
+    }
 
     private void Start()
     {
         _currentHealth = _maxHealth;
+        _currentState = AIState.Idle;
+        
+        _randomSpot = UnityEngine.Random.Range(0, _moveSpots.Length);
     }
 
 
     private void Update()
     {
-        Debug.Log(_currentState.ToString());
-        ChangeEnemyState();
-
-
-        //Check to see if player is in range of enemy
-       
-
-        //If so then change enemy state to chasing
-
-        //If player is closer to enemy then switch to attack
+        //Get distance to player. if close then do 
+        
     }
 
-
+ 
     public void TakeDamage(int damage)
     {
         Debug.Log("Player has hit " + _name + " dealing " + damage + " damage!");
@@ -66,7 +79,6 @@ public class EnemyBehavior : MonoBehaviour
         {
             Die();
         }
-       
     }
 
     public void Attack(int enemyDamage)
@@ -74,14 +86,7 @@ public class EnemyBehavior : MonoBehaviour
         enemyDamage = _attackDamage;
     }
 
-    public void ChangeEnemyState()
-    {
-
-        if(Keyboard.current.uKey.wasPressedThisFrame)
-        {
-            _currentState = EnemyStates.Attacking;
-        }
-    }
+    
 
 
     public void Die()
@@ -89,4 +94,30 @@ public class EnemyBehavior : MonoBehaviour
         gameObject.SetActive(false);
        
     }
+
+    public void Patrol()
+    {
+        _currentState = AIState.Patrol;
+        Debug.Log(_currentState.ToString());
+
+        //Patrol code goes here
+        transform.position = Vector2.MoveTowards(transform.position, _moveSpots[_randomSpot].position, _speed * Time.deltaTime);
+
+        if(Vector2.Distance(transform.position, _moveSpots[_randomSpot].position) < 0.2f)
+        {
+            _randomSpot = UnityEngine.Random.Range(0, _moveSpots.Length);
+        }
+
+    }
+
+
+    public void Wander()
+    {
+        _currentState = AIState.Wander;
+
+        //Wander code goes here
+    }
+
+
+
 }
