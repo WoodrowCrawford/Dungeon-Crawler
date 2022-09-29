@@ -2,48 +2,45 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using Unity.Mathematics;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
 
 public class EnemyBehavior : MonoBehaviour
 {
-    //Enemy AI states
-    private enum AIState
+    public enum EnemyState
     {
-        Idle,
-        Wander,
-        Patrol,
-        Chase,
-        Attack
+        IDLE,
+        WANDER,
+        PATROL,
+        CHASE
     }
-
 
     [SerializeField]
     private Rigidbody2D _rb2d;
 
     [SerializeField]
+    [Header("Enemy Name")]
     private string _name;
 
-    [SerializeField]
-    private int _maxHealth = 100;
 
-    [SerializeField]
-    private int _currentHealth;
+    [Header("EnemyStats")]
+    [SerializeField] private int _maxHealth = 100;
+    [SerializeField] private int _currentHealth;
+    [SerializeField] private float _speed;
+    [SerializeField] private int _attackDamage;
 
-    [SerializeField]
-    private float _speed;
 
+    [Header("Current Enemy State")]
     [SerializeField]
-    private int _attackDamage;
+    private EnemyState _currentState;
 
-    [SerializeField]
-    private AIState _currentState;
 
-    [SerializeField]
-    private Transform[] _moveSpots;
 
-    private int _randomSpot;
+    [Header("Chasing State Variables")]
+    [SerializeField] private Transform[] _moveSpots;
+    
 
 
 
@@ -55,16 +52,65 @@ public class EnemyBehavior : MonoBehaviour
     private void Start()
     {
         _currentHealth = _maxHealth;
-        _currentState = AIState.Idle;
-        
-        _randomSpot = UnityEngine.Random.Range(0, _moveSpots.Length);
+       
     }
 
 
     private void Update()
     {
-        //Get distance to player. if close then do 
-        
+        //Tests to see what the current state is
+        Debug.Log(_currentState.ToString());
+
+        //A state machine used to switch between AI states
+        switch (_currentState)
+        {
+            case EnemyState.IDLE:
+                {
+                   if(Keyboard.current.digit1Key.wasPressedThisFrame)
+                    {
+                        _currentState = EnemyState.WANDER;
+                    }
+
+                    break;
+                }
+
+            case EnemyState.WANDER:
+                {
+
+                    if (Keyboard.current.digit1Key.wasPressedThisFrame)
+                    {
+                        _currentState = EnemyState.PATROL;
+                    }
+
+
+
+                    break;
+                }
+
+
+            case EnemyState.PATROL:
+                {
+
+                    if (Keyboard.current.digit1Key.wasPressedThisFrame)
+                    {
+                        _currentState = EnemyState.CHASE;
+                    }
+
+
+
+                    break;
+                }
+
+            case EnemyState.CHASE:
+                {
+                    if (Keyboard.current.digit1Key.wasPressedThisFrame)
+                    {
+                        _currentState = EnemyState.IDLE;
+                    }
+
+                    break;
+                }
+        }
     }
 
  
@@ -86,8 +132,7 @@ public class EnemyBehavior : MonoBehaviour
         enemyDamage = _attackDamage;
     }
 
-    
-
+   
 
     public void Die()
     {
@@ -95,29 +140,5 @@ public class EnemyBehavior : MonoBehaviour
        
     }
 
-    public void Patrol()
-    {
-        _currentState = AIState.Patrol;
-        Debug.Log(_currentState.ToString());
-
-        //Patrol code goes here
-        transform.position = Vector2.MoveTowards(transform.position, _moveSpots[_randomSpot].position, _speed * Time.deltaTime);
-
-        if(Vector2.Distance(transform.position, _moveSpots[_randomSpot].position) < 0.2f)
-        {
-            _randomSpot = UnityEngine.Random.Range(0, _moveSpots.Length);
-        }
-
-    }
-
-
-    public void Wander()
-    {
-        _currentState = AIState.Wander;
-
-        //Wander code goes here
-    }
-
-
-
+  
 }

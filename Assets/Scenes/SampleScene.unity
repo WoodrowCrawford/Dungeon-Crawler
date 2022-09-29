@@ -2383,6 +2383,26 @@ PrefabInstance:
       propertyPath: m_Name
       value: FloatingSkull
       objectReference: {fileID: 0}
+    - target: {fileID: 1412968579956734929, guid: e4bc6a5c5b23608429ebf89826736815, type: 3}
+      propertyPath: _moveSpots.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1412968579956734929, guid: e4bc6a5c5b23608429ebf89826736815, type: 3}
+      propertyPath: _moveSpots.Array.data[0]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 1412968579956734929, guid: e4bc6a5c5b23608429ebf89826736815, type: 3}
+      propertyPath: _moveSpots.Array.data[1]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 1412968579956734929, guid: e4bc6a5c5b23608429ebf89826736815, type: 3}
+      propertyPath: _moveSpots.Array.data[2]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 1412968579956734929, guid: e4bc6a5c5b23608429ebf89826736815, type: 3}
+      propertyPath: _moveSpots.Array.data[3]
+      value: 
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e4bc6a5c5b23608429ebf89826736815, type: 3}
 --- !u!1001 &6480310693660207265
